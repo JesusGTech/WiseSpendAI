@@ -16,6 +16,7 @@ The software combines financial literacy, AI literacy, and lightweight data coll
 ## Running the Project
 
 Because the project is a static HTML app, you can run it locally in a browser.
+*For best results run this project on a chromium based browser*
 
 ### Option 1: Open directly
 
