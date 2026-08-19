@@ -1,5 +1,7 @@
 # WiseSpend AI
 
+**Live version:** [https://jesusgtech.github.io/WiseSpendAI/](https://jesusgtech.github.io/WiseSpendAI/)
+
 WiseSpend AI is an educational browser-based game and classroom research tool that helps students explore financial decision-making by teaching an AI the difference between needs and wants.
 
 Players act as the AI's coach. During the game, they train the AI by labeling items as `Need` or `Want`, then watch the AI apply those patterns during later testing rounds. The goal is to help the AI make accurate decisions while protecting a limited budget over a 30-day challenge.
@@ -8,23 +10,28 @@ Players act as the AI's coach. During the game, they train the AI by labeling it
 
 WiseSpend AI was designed to support two connected goals:
 
-- Teach students core budgeting ideas, especially the difference between needs and wants
-- Study how students train, evaluate, and reflect on AI decision-making in a classroom setting
+- Teach students core budgeting ideas, especially the difference between needs and wants.
+- Study how students train, evaluate, and reflect on AI decision-making in a classroom setting.
 
 The software combines financial literacy, AI literacy, and lightweight data collection into a single experience.
 
 ## Running the Project
 
-Because the project is a static HTML app, you can run it locally in a browser.
-*For best results run this project on a chromium based browser*
+WiseSpend AI is a static HTML application. To run it locally, download or clone the entire repository, including both `index.html` and the `assets/` folder. Keep the `assets/` folder in the same directory as `index.html`, because the game uses those files for its images and other resources.
+
+For the easiest experience, play the live version:
+
+[https://jesusgtech.github.io/WiseSpendAI/](https://jesusgtech.github.io/WiseSpendAI/)
+
+For the best local experience, use a Chromium-based browser.
 
 ### Option 1: Open directly
 
-Open `index.html` in your browser.
+After downloading the full repository, open `index.html` in your browser.
 
 ### Option 2: Use a local server
 
-If you prefer running it through a simple local server:
+From the folder containing `index.html` and `assets/`, run:
 
 ```bash
 python3 -m http.server 8000
